@@ -1,0 +1,71 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: rgb(53, 42, 42);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+*{
+    background-color: #746363b7;
+    color: rgba(208, 216, 216, 0.973);
+}
+.Cooperate{
+    display: flex;
+    justify-content: space-between;
+}
+.wedding{
+    display: flex;
+    justify-content: space-between;
+}
+.birthdays{
+    display: flex;
+    justify-content: space-between;
+}
+.test{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: start;
+  font-family: arial;
+}
+.tests{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.tester{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.Testimony{
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    text-align: center;
+}
+.lead{
+    text-align: center;
+}
+.Page{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
