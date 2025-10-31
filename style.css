@@ -11,6 +11,10 @@ li a{
     font-size: 18px;
     font-weight: bold;
     margin-right: 25px;
+    text-decoration: none;
+}
+.Book{
+    margin-right: 20px;
 }
 *{
     background-color: #746363b7;
@@ -19,14 +23,20 @@ li a{
 .Cooperate{
     display: flex;
     justify-content: space-between;
+     margin-left: 30px;
+    margin-right:30px ;
 }
 .wedding{
     display: flex;
     justify-content: space-between;
+     margin-left: 30px;
+    margin-right:30px ;
 }
 .birthdays{
     display: flex;
     justify-content: space-between;
+    margin-left: 30px;
+    margin-right:30px ;
 }
 .test{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -59,8 +69,17 @@ li a{
 .lead{
     text-align: center;
 }
+.Bone{
+    text-decoration: none;
+}
 .About{
     text-align: center;
+}
+.Our{
+    margin-top: 10px;
+}
+.Stop{
+    padding-top: 25px;
 }
 .Page{
     margin-top: 20px;
@@ -73,7 +92,7 @@ li a{
     justify-content: space-between;
 }
 .server{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(73, 65, 65, 0.2);
   max-width: 300px;
   margin: auto;
   text-align: center;
@@ -101,7 +120,7 @@ li a{
   font-family: arial;
 }
 .logistic{
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     box-shadow: 0 4px 8px 0 rgba(165, 43, 43, 0.61);
   max-width: 300px;
   margin: auto;
   text-align: center;
@@ -126,7 +145,12 @@ li a{
 .Catering{
     display: flex;
     justify-content: space-between;
+     margin-left: 30px;
+    margin-right:30px ;
 }
 .Our{
+    text-align: center;
+}
+.Weddings{
     text-align: center;
 }
