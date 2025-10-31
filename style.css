@@ -121,8 +121,12 @@ li a{
 }
 .Homies{
     display: flex;
+    padding-bottom: 100px;
 }
 .Catering{
     display: flex;
     justify-content: space-between;
+}
+.Our{
+    text-align: center;
 }
