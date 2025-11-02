@@ -101,9 +101,10 @@ footer{
     justify-content: space-between;
 }
 .server{
-    box-shadow: 0 4px 8px 0 rgba(73, 65, 65, 0.2);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
   max-width: 300px;
   margin: auto;
+  background-color: #7426266b;
   text-align: center;
   font-family: arial; 
 }
@@ -111,6 +112,7 @@ footer{
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
+  background-color: #7426266b;
   text-align: center;
   font-family: arial;
 }
@@ -118,6 +120,7 @@ footer{
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
+  background-color: #7426266b;
   text-align: center;
   font-family: arial;
 }
@@ -125,13 +128,15 @@ footer{
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
+  background-color: #7426266b;
   text-align: center;
   font-family: arial;
 }
 .logistic{
-     box-shadow: 0 4px 8px 0 rgba(165, 43, 43, 0.61);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
+  background-color: #7426266b;
   text-align: center;
   font-family: arial;
 }
@@ -139,6 +144,7 @@ footer{
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
+  background-color: #7426266b;
   text-align: center;
   font-family: arial;
 }
@@ -210,38 +216,33 @@ footer{
 }
 .contact-section {
   padding: 60px 20px;
-  background-color: #fff;
+  margin-top: 10px;
 }
 
 .contact-container {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 .contact-container h1 {
   font-size: 36px;
   text-align: center;
   margin-bottom: 15px;
 }
-
 .contact-container h1 span {
-  color: #1d1c1c;
+  color: rgba(208, 216, 216, 0.973);
 }
-
 .contact-container p {
   text-align: center;
   font-size: 16px;
   margin-bottom: 40px;
-  color:  #1d1c1c;
+  color: rgba(208, 216, 216, 0.973);
 }
-
 .contact-content {
   display: flex;
   justify-content: space-between;
   gap: 40px;
   flex-wrap: wrap;
 }
-
 .contact-form {
   flex: 1 1 500px;
   background: #fff;
@@ -250,7 +251,6 @@ footer{
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.08);
   border: 1px solid #eee;
 }
-
 .contact-form label {
   display: block;
   font-size: 14px;
@@ -258,7 +258,6 @@ footer{
   color: #333;
   font-weight: bold;
 }
-
 .contact-form input,
 .contact-form select,
 .contact-form textarea {
@@ -272,22 +271,18 @@ footer{
   outline: none;
   transition: border-color 0.3s ease;
 }
-
 .contact-form input:focus,
 .contact-form textarea:focus,
 .contact-form select:focus {
   border-color: #20201f;
 }
-
 .contact-form .row {
   display: flex;
   gap: 15px;
 }
-
 .contact-form .col {
   flex: 1;
 }
-
 .contact-form button {
   padding: 12px 20px;
   margin-right: 10px;
@@ -297,7 +292,6 @@ footer{
   cursor: pointer;
   transition: 0.3s ease;
 }
-
 .contact-form .btn {
   background-color: #81350fb7;
   color: #111;
@@ -307,13 +301,11 @@ footer{
 .contact-form .btn:hover {
   background-color: #693705;
 }
-
 .contact-form .ghost {
   background-color: #fff;
   border: 1px solid #ccc;
   color: #555;
 }
-
 .contact-form .ghost:hover {
   background-color: #f0f0f0;
 }
@@ -325,29 +317,24 @@ footer{
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.06);
   border: 1px solid #eee;
 }
-
 .contact-info h3 {
   font-size: 22px;
   margin-bottom: 15px;
   color: #111;
 }
-
 .contact-info p {
   font-size: 15px;
   margin: 10px 0;
   color: #444;
 }
-
 .subscribe-section {
   margin-top: 25px;
 }
-
 .subscribe-section h4 {
   font-size: 17px;
   margin-bottom: 10px;
   color: #111;
 }
-
 .subscribe-section input {
   width: 100%;
   padding: 12px;
@@ -355,7 +342,6 @@ footer{
   border: 1px solid #ccc;
   margin-bottom: 10px;
 }
-
 .subscribe-section button {
   width: 100%;
   padding: 12px;
@@ -366,7 +352,6 @@ footer{
   border-radius: 6px;
   cursor: pointer;
 }
-
 .subscribe-section button:hover {
   background-color: #333;
 }
