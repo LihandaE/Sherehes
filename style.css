@@ -16,8 +16,17 @@ li a{
 .Book{
     margin-right: 20px;
 }
+header{
+    background-color:   #3f1d1db7;
+}
+
+main{
+    background-color:   #3f1d1db7;
+}
+footer{
+    background-color:  black;
+}
 *{
-    background-color: #746363b7;
     color: rgba(208, 216, 216, 0.973);
 }
 .Cooperate{
@@ -99,7 +108,7 @@ li a{
   font-family: arial; 
 }
 .served{
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
   text-align: center;
@@ -153,4 +162,211 @@ li a{
 }
 .Weddings{
     text-align: center;
+}
+.footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  margin: 0 auto;
+}
+
+.footer-logo {
+  font-size: 35px;
+  font-weight: bold;
+  color: rgba(208, 216, 216, 0.973);
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  
+}
+.footer-links a:hover {
+  color: #978484;
+}
+.footer-text {
+  font-size: 14px;
+  opacity: 0.6;
+}
+.contact-section {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-container h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.contact-container h1 span {
+  color: #1d1c1c;
+}
+
+.contact-container p {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 40px;
+  color:  #1d1c1c;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-form {
+  flex: 1 1 500px;
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid #eee;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #555;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form select:focus {
+  border-color: #20201f;
+}
+
+.contact-form .row {
+  display: flex;
+  gap: 15px;
+}
+
+.contact-form .col {
+  flex: 1;
+}
+
+.contact-form button {
+  padding: 12px 20px;
+  margin-right: 10px;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form .btn {
+  background-color: #81350fb7;
+  color: #111;
+  font-weight: bold;
+}
+
+.contact-form .btn:hover {
+  background-color: #693705;
+}
+
+.contact-form .ghost {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #555;
+}
+
+.contact-form .ghost:hover {
+  background-color: #f0f0f0;
+}
+.contact-info {
+  flex: 1 1 350px;
+  background: #fefefe;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.06);
+  border: 1px solid #eee;
+}
+
+.contact-info h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.contact-info p {
+  font-size: 15px;
+  margin: 10px 0;
+  color: #444;
+}
+
+.subscribe-section {
+  margin-top: 25px;
+}
+
+.subscribe-section h4 {
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.subscribe-section input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.subscribe-section button {
+  width: 100%;
+  padding: 12px;
+  background-color: #111;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.subscribe-section button:hover {
+  background-color: #333;
 }
