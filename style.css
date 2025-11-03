@@ -112,7 +112,8 @@ footer{
     padding-left: 30px;
     padding-bottom: 30px;
     padding-top: 30px;
-    display: flex wrap;
+    display: flex;
+    justify-content: space-between;
   
 }
 .server{
@@ -374,15 +375,12 @@ footer{
 
 @media screen and (max-width: 680px){
   .navlinks{
-    vertical-align: auto;
+    display: flex column;
   }
   .footer-links{
     vertical-align: auto;
   }
-  .Page{
-  right: 5px;
-  margin-left: 35px;
-  }
+  
   .lead{
     font-size: 2;
   }
@@ -427,5 +425,43 @@ margin-left: 65px;
 .Catering{
   display: list-item; 
    margin-left: 65px;
+}
+.Page{
+  display: grid;
+  margin-left: 45px;
+
+}
+.image1{
+  margin-bottom: 35px;
+}
+.image2{
+   margin-bottom: 35px;
+}
+.image3{
+   margin-bottom: 35px;
+}
+.image4{
+   margin-bottom: 35px;
+}
+.image5{
+ margin-bottom: 35px;
+}
+.image6{
+ margin-bottom: 35px;
+}
+.image7{
+ margin-bottom: 35px;
+}
+.image8{
+ margin-bottom: 35px;
+}
+.image9{
+margin-bottom: 35px;
+}
+.image10{
+margin-bottom: 35px;
+}
+.image11{
+margin-bottom: 35px;
 }
 }
