@@ -380,14 +380,15 @@ footer{
     vertical-align: auto;
   }
   .Page{
-  right: 500px;
+  right: 5px;
+  margin-left: 35px;
   }
   .lead{
     font-size: 2;
   }
   .Testimony{
     display:grid;
-    margin-left: 7px;
+    margin-left: 40px;
   }
 .Homie{
   display: grid;
@@ -412,15 +413,19 @@ footer{
 }
 .birthdays{
   display: list-item; 
-width: 20px;
+margin-left: 65px;
+
 }
 .wedding{
   display: list-item; 
+  margin-left: 65px;
 }
 .Cooperate{
   display: list-item; 
+   margin-left: 65px;
 }
 .Catering{
   display: list-item; 
+   margin-left: 65px;
 }
 }
