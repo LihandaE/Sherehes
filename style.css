@@ -112,8 +112,8 @@ footer{
     padding-left: 30px;
     padding-bottom: 30px;
     padding-top: 30px;
-    display: flex;
-    justify-content: space-between;
+    display: flex wrap;
+  
 }
 .server{
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
@@ -370,4 +370,57 @@ footer{
 }
 .subscribe-section button:hover {
   background-color: #333;
+}
+
+@media screen and (max-width: 680px){
+  .navbar{
+    display: block;
+  }
+  .Page{
+    margin-left: 50px;
+  }
+  .lead{
+    font-size: 2;
+  }
+  .Testimony{
+    display:grid;
+    margin-left: 70px;
+  }
+.Homie{
+  display: grid;
+}
+.server{
+  margin-top:15px ;
+  margin-bottom:30px ;
+}
+.served{
+   
+  margin-bottom:30px ;
+}
+.Homies{
+  display: grid;
+}
+.service{
+  margin-top: 0;
+  margin-bottom:30px ;
+}
+.logistic{
+   margin-bottom:30px ;
+}
+.birthdays{
+  display: list-item; 
+  margin-left: 90px;
+}
+.wedding{
+  display: list-item; 
+  margin-left: 90px;
+}
+.Cooperate{
+  display: list-item; 
+  margin-left: 90px;
+}
+.Catering{
+  display: list-item; 
+  margin-left: 90px;
+}
 }
