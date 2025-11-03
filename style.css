@@ -373,11 +373,14 @@ footer{
 }
 
 @media screen and (max-width: 680px){
-  .navbar{
-    display: block;
+  .navlinks{
+    vertical-align: auto;
+  }
+  .footer-links{
+    horizontal vertical-align: ;
   }
   .Page{
-    margin-left: 5px;
+  right: 500px;
   }
   .lead{
     font-size: 2;
@@ -409,18 +412,15 @@ footer{
 }
 .birthdays{
   display: list-item; 
-
+width: 20px;
 }
 .wedding{
   display: list-item; 
-
 }
 .Cooperate{
   display: list-item; 
-
 }
 .Catering{
   display: list-item; 
-
 }
 }
