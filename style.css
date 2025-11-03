@@ -377,14 +377,14 @@ footer{
     display: block;
   }
   .Page{
-    margin-left: 50px;
+    margin-left: 5px;
   }
   .lead{
     font-size: 2;
   }
   .Testimony{
     display:grid;
-    margin-left: 70px;
+    margin-left: 7px;
   }
 .Homie{
   display: grid;
@@ -409,18 +409,18 @@ footer{
 }
 .birthdays{
   display: list-item; 
-  margin-left: 90px;
+
 }
 .wedding{
   display: list-item; 
-  margin-left: 90px;
+
 }
 .Cooperate{
   display: list-item; 
-  margin-left: 90px;
+
 }
 .Catering{
   display: list-item; 
-  margin-left: 90px;
+
 }
 }
